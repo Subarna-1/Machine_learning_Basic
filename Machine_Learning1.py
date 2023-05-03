@@ -1,7 +1,7 @@
 import io
 
 from google.cloud import vision
-from google.cloud.vision import types
+from google.cloud.vision_v1 import types
 
 # Instantiates a client
 client = vision.ImageAnnotatorClient()
